@@ -5,6 +5,7 @@ public class Quotes {
     private long id;
     private String authorFirstName;
     private String authorLastName;
+    private String quote;
 
     //    CONSTRUCTOR
     public Quotes() {}
@@ -27,5 +28,13 @@ public class Quotes {
     }
     public void setAuthorLastName(String authorLastName) {
         this.authorLastName = authorLastName;
+    }
+
+    public String getQuote() {
+        return quote;
+    }
+
+    public void setQuote(String quote) {
+        this.quote = quote;
     }
 }
