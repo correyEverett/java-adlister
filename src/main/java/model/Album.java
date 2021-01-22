@@ -11,4 +11,7 @@ public class Album {
     private long sales;
     private String genre;
 
+    //    CONSTRUCTOR
+    public Album() {}
+
 }
