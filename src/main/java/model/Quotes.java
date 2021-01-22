@@ -6,4 +6,7 @@ public class Quotes {
     private String authorFirstName;
     private String authorLastName;
 
+    //    CONSTRUCTOR
+    public Quotes() {}
+
 }
